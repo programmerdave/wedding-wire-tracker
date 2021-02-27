@@ -1,0 +1,28 @@
+{
+  "name": "wedding-wire-tracker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "~14.16.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "1.18.x",
+    "dotenv": "^8.2.0",
+    "ejs": "2.5.x",
+    "express": "^4.17.x",
+    "express-basic-auth": "^1.2.0",
+    "googleapis": "^67.0.0",
+    "lodash": "^4.17.20",
+    "moment": "2.22.x",
+    "mongoose": "^5.11.9",
+    "nodemon": "^2.0.5"
+  }
+}
